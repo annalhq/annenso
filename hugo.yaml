@@ -10,6 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -19,7 +20,7 @@ params:
   env: production
   title: annalhq
   description: "personal site"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio]
   defaultTheme: dark
   disableThemeToggle: false
 
@@ -58,6 +59,8 @@ params:
       I am currently doing my undergrad with a focus on mathematics and machine learning.
       My research interests lie in the intersection of these fields,
       where I'm interested in exploring how mathematical structures can be leveraged to create more interpretable models.
+      - tetx
+      - text
 
   socialIcons:
     - name: twitter
@@ -108,12 +111,9 @@ menu:
       url: /search/
       weight: 40 
 
-pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai

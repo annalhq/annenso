@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>404 Page not found | annenso</title>
+<title>Posts | annenso</title>
 <meta name="keywords" content="">
-<meta name="description" content="personal site">
+<meta name="description" content="Posts - annenso">
 <meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/404.html">
+<link rel="canonical" href="//localhost:1313/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
@@ -18,7 +18,8 @@
 <link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="//localhost:1313/404.html">
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/posts/index.xml">
+<link rel="alternate" hreflang="en" href="//localhost:1313/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -27,16 +28,31 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="//localhost:1313/404.html">
+</noscript><meta property="og:url" content="//localhost:1313/posts/">
   <meta property="og:site_name" content="annenso">
-  <meta property="og:title" content="404 Page not found">
+  <meta property="og:title" content="Posts">
   <meta property="og:description" content="personal site">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="404 Page not found">
+<meta name="twitter:title" content="Posts">
 <meta name="twitter:description" content="personal site">
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "//localhost:1313/posts/"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="list dark" id="top">
@@ -98,8 +114,36 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-<div class="not-found">404</div>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a></div>
+  <h1>
+    Posts
+    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">setting up...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>sample text using KaTeX
+bullet {{ if or .Params.math .Site.Params.math }} {{ partial &#34;math.html&#34; . }} {{ end }} Note: Use the online reference of Supported TeX Functions
+Examples Inline math: \(\varphi = \dfrac{1&#43;\sqrt5}{2}= 1.6180339887…\)Block math:
+$$ \sum_{\text{min} \beta } \left((y_i-x^T\beta) - \lambda \parallel \beta \parallel_2^2 \right) $$
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-22 00:00:00 +0000 UTC'>May 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;49 words&nbsp;·&nbsp;Annalhq</footer>
+  <a class="entry-link" aria-label="post link to setting up..." href="//localhost:1313/posts/math/"></a>
+</article>
     </main>
     
 <footer class="footer">
