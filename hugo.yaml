@@ -57,7 +57,7 @@ params:
     Content: >
       I am currently doing my undergrad with a focus on mathematics and machine learning.
       My research interests lie in the intersection of these fields,
-      where I'm interested in exploring how mathematical structures can be leveraged to create more interpretable machine learning models.
+      where I'm interested in exploring how mathematical structures can be leveraged to create more interpretable models.
 
   socialIcons:
     - name: twitter
@@ -84,6 +84,12 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+  outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 menu:
   main:
     - identifier: archive
@@ -98,6 +104,9 @@ menu:
       name: blog
       url: /blog/
       weight: 30
+    - identifier: search
+      url: /search/
+      weight: 40 
 
 pygmentsUseClasses: true
 markup:
