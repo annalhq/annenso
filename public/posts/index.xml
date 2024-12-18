@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on annenso</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/annenso/posts/</link>
     <description>Recent content in Posts on annenso</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/annenso/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enso</title>
-      <link>//localhost:1313/posts/enso/</link>
+      <link>http://localhost:1313/annenso/posts/enso/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/enso/</guid>
+      <guid>http://localhost:1313/annenso/posts/enso/</guid>
       <description>study</description>
     </item>
     <item>
       <title>setting up...</title>
-      <link>//localhost:1313/posts/math/</link>
+      <link>http://localhost:1313/annenso/posts/math/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/math/</guid>
+      <guid>http://localhost:1313/annenso/posts/math/</guid>
       <description>MD&#43;KaTex</description>
     </item>
   </channel>
