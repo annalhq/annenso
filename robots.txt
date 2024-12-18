@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://annalhq.github.io/annenso/sitemap.xml
